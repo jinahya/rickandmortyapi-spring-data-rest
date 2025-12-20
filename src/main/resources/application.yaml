@@ -1,12 +1,15 @@
-spring:
-  application.name: Rick and Morty API Spring Data Rest
+logging.level:
+  io.github.jinahya: DEBUG
+
+#spring.application:
+#  name: Rick and Morty API Spring Data REST
 
 spring.datasource:
   driver-class-name: org.sqlite.JDBC
-#  url: jdbc:sqlite::resource:rickandmortyapi.db?jdbc.explicit_readonly=true
+  #  url: jdbc:sqlite::resource:rickandmortyapi.db?jdbc.explicit_readonly=true
   url: jdbc:sqlite::resource:rickandmortyapi.db
-  username:
-  password:
+#  username:
+#  password:
 
-spring.jpa:
-  database-platform: org.hibernate.community.dialect.SQLiteDialect
+#spring.jpa:
+#  database-platform: org.hibernate.community.dialect.SQLiteDialect
