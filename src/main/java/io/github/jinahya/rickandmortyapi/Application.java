@@ -9,9 +9,14 @@ import org.springframework.boot.persistence.autoconfigure.EntityScan;
         _BaseEntity.class
 })
 @SpringBootApplication
-public class Application {
+class Application {
 
-    public static void main(String[] args) {
+    static void main(final String... args) {
         SpringApplication.run(Application.class, args);
+    }
+
+    // ---------------------------------------------------------------------------------------------------- CONSTRUCTORS
+    private Application() {
+        super();
     }
 }

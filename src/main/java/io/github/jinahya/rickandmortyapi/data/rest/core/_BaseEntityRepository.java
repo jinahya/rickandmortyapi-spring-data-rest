@@ -1,4 +1,4 @@
-package io.github.jinahya.rickandmortyapi.data.respository;
+package io.github.jinahya.rickandmortyapi.data.rest.core;
 
 import io.github.jinahya.rickandmortyapi.persistence._BaseEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

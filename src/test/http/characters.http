@@ -1,0 +1,29 @@
+### Reads /characters
+GET http://localhost:8080/characters?size=1
+
+### Reads /characters with projection
+GET http://localhost:8080/characters?size=1&projection=characterProjection
+
+### Reads a character
+GET http://localhost:8080/characters/1
+
+### Reads a character with projection
+GET http://localhost:8080/characters/1?projection=characterProjection
+
+### Reads a character's origin_
+GET http://localhost:8080/characters/1/origin_
+
+### Reads a character's origin_ with projection
+GET http://localhost:8080/characters/1/origin_?projection=locationProjection
+
+### Reads a character's location_
+GET http://localhost:8080/characters/1/location_
+
+### Reads a character's location_ with projection
+GET http://localhost:8080/characters/1/location_?projection=locationProjection
+
+### Reads a character's episodes_
+GET http://localhost:8080/characters/1/episodes_
+
+### Reads a character's episodes_ with projection
+GET http://localhost:8080/characters/1/episodes_?size=1&projection=episodeProjection

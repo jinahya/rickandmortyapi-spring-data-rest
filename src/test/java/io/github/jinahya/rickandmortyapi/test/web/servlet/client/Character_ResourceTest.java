@@ -6,10 +6,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Slf4j
-class CharacterResourceTest extends _BaseEntityResourceTest<Character, Integer> {
+class Character_ResourceTest extends _BaseEntityResourceTest<Character, Integer> {
 
     // -----------------------------------------------------------------------------------------------------------------
-    CharacterResourceTest() {
+    Character_ResourceTest() {
         super(Character.class);
     }
 

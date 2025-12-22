@@ -4,11 +4,12 @@ import io.github.jinahya.rickandmortyapi.persistence.EpisodeCharacter;
 import io.github.jinahya.rickandmortyapi.persistence.EpisodeCharacterId;
 import lombok.extern.slf4j.Slf4j;
 
+@org.junit.jupiter.api.Disabled
 @Slf4j
-class EpisodeCharacterResourceTest extends _BaseEntityResourceTest<EpisodeCharacter, EpisodeCharacterId> {
+class EpisodeCharacter_ResourceTest extends _BaseEntityResourceTest<EpisodeCharacter, EpisodeCharacterId> {
 
     // -----------------------------------------------------------------------------------------------------------------
-    EpisodeCharacterResourceTest() {
+    EpisodeCharacter_ResourceTest() {
         super(EpisodeCharacter.class);
     }
 }

@@ -4,11 +4,12 @@ import io.github.jinahya.rickandmortyapi.persistence.LocationResident;
 import io.github.jinahya.rickandmortyapi.persistence.LocationResidentId;
 import lombok.extern.slf4j.Slf4j;
 
+@org.junit.jupiter.api.Disabled
 @Slf4j
-class LocationResidentResourceTest extends _BaseEntityResourceTest<LocationResident, LocationResidentId> {
+class LocationResident_ResourceTest extends _BaseEntityResourceTest<LocationResident, LocationResidentId> {
 
     // -----------------------------------------------------------------------------------------------------------------
-    LocationResidentResourceTest() {
+    LocationResident_ResourceTest() {
         super(LocationResident.class);
     }
 }

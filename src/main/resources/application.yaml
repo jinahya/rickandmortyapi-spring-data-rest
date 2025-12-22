@@ -1,5 +1,11 @@
-logging.level:
-  io.github.jinahya: DEBUG
+management.endpoint:
+  shutdown:
+    access: none
+
+management.endpoints:
+  web:
+    exposure:
+      include: health,info,beans,metrics
 
 #spring.application:
 #  name: Rick and Morty API Spring Data REST
@@ -11,5 +17,11 @@ spring.datasource:
 #  username:
 #  password:
 
-#spring.jpa:
-#  database-platform: org.hibernate.community.dialect.SQLiteDialect
+spring.jpa:
+  show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+      highlight.sql: true
+      highlight.sql_logging: true
+

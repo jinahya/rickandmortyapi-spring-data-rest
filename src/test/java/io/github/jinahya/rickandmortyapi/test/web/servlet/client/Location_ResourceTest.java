@@ -1,16 +1,16 @@
 package io.github.jinahya.rickandmortyapi.test.web.servlet.client;
 
-import io.github.jinahya.rickandmortyapi.persistence.Episode;
+import io.github.jinahya.rickandmortyapi.persistence.Location;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Slf4j
-class EpisodeResourceTest extends _BaseEntityResourceTest<Episode, Integer> {
+class Location_ResourceTest extends _BaseEntityResourceTest<Location, Integer> {
 
     // -----------------------------------------------------------------------------------------------------------------
-    EpisodeResourceTest() {
-        super(Episode.class);
+    Location_ResourceTest() {
+        super(Location.class);
     }
 
     // -----------------------------------------------------------------------------------------------------------------

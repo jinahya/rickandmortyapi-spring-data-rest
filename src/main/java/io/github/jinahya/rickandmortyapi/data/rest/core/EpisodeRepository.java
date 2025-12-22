@@ -1,4 +1,4 @@
-package io.github.jinahya.rickandmortyapi.data.respository;
+package io.github.jinahya.rickandmortyapi.data.rest.core;
 
 import io.github.jinahya.rickandmortyapi.persistence.Episode;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
