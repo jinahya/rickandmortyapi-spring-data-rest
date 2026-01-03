@@ -19,7 +19,5 @@ interface EpisodeProjection {
 
     Integer getEpisodeNumber();
 
-//    java.net.URL getUrl();
-
     LocalDate getAirDateIso_();
 }

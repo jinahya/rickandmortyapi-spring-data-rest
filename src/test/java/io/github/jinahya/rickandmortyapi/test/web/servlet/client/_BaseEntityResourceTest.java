@@ -30,9 +30,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Slf4j
 @SuppressWarnings({
         "java:S119" // Type parameter names should comply with a naming convention
-
 })
-abstract class _BaseEntityResourceTest<ENTITY extends _BaseEntity<ID>, ID extends Serializable> {
+abstract class _BaseEntityResourceTest<
+        ENTITY extends _BaseEntity<ID>,
+        ID extends Serializable
+        > {
 
     // -----------------------------------------------------------------------------------------------------------------
     private static <T> ParameterizedTypeReference<PagedModel<T>> pagedModelTypeReference(final Class<T> entityClass) {

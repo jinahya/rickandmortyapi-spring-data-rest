@@ -12,9 +12,9 @@ interface LocationProjection {
 
     String getName();
 
-    Location.@Nullable Type getType();
+    @Nullable
+    Location_Type getType();
 
-    Location.@Nullable Dimension getDimension();
-
-//    java.net.URL getUrl();
+    @Nullable
+    Location_Dimension getDimension();
 }

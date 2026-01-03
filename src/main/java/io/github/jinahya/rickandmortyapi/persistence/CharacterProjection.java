@@ -12,15 +12,12 @@ interface CharacterProjection {
 
     String getName();
 
-    Character.Status getStatus();
+    Character_Status getStatus();
 
-    Character.Species getSpecies();
+    Character_Species getSpecies();
 
-    Character.@Nullable Type getType();
+    @Nullable
+    Character_Type getType();
 
-    Character.Gender getGender();
-
-//    String getImage();
-
-//    java.net.URL getUrl();
+    Character_Gender getGender();
 }
